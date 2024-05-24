@@ -1,0 +1,10 @@
+{
+  "module_name": "My Module",
+  "module_description": "This is a terraform module that does something",
+  "project_slug": "{{ cookiecutter.module_name.lower().replace(' ', '_').replace('-', '_')}}",
+  "author": "petrodcas",
+  "license": ["MIT", "Apache 2.0", "None"],
+  "required_terraform_version": ">= 1.8.3",
+  "include_backend": true,
+  "include_modules_dir": true
+}

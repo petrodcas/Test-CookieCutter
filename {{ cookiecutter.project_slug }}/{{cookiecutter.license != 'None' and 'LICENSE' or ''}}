@@ -1,0 +1,5 @@
+{% if cookiecutter.license == 'MIT' %}
+{%- include 'licenses/mit.jinja' -%}
+{% else %}
+{%- include 'licenses/apache2.jinja' -%}
+{% endif %}
